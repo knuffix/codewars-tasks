@@ -1,3 +1,4 @@
+//https://www.codewars.com/kata/5a045fee46d843effa000070/
 module.exports = function decomp(n) {
     var array = new Array(n).fill(n);
     var primeArr = {};
