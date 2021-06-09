@@ -30,20 +30,3 @@ def common(lst1, lst2):
             if j > i:
                 break
     return res
-
-
-# print(get_common_directory_path(
-#     ['lzarjg/azht/e/s/asd/fqwe', 'lzarjg/azht/e/s']))
-# # /web
-# print(get_common_directory_path(
-#     ['/web/assets/style.css', '/web/scripts/app.js',  'home/setting.conf']))
-# print(get_common_directory_path(
-#     ['/web/assets/style.css', '/.bin/mocha',  '/read.me']))
-print(get_common_directory_path(
-    [
-        'trt/s/g/ysi/vbpswnsrsp/zpce/avmuvcclz/wqucikkbsk/yu/qnheeun/lsnsoqudp/zyn/cmi/gucqhg/quixiycdk/jkeaymiwk/mqxrcagg/zvrzilif/c/unkiixjuhn',
-        # 'trt/s/g/ysi/vbpswnsrsp/zpcesarzw/bcljkilm',
-        'trt/s/gffoogcddm/nvbsijcy/lxpyrakg/qt/twbdr/kgau/stryifbc/uevrs/g/hqiimhrdw/myvloxwxf/ajceqret/q/eu/wxjqpf/a/ccqivthx/easm',
-        # 'trt/s/g/ysi/vbpswnsrsp/zpce/avmmmeco/ogatahld/mvwwtfyszj/fer/vnrmkau/tiodk/dqfb/dvihmgmdo/xe/noyxuhph/wayafmpvcc/uudp/ptq/cupxnttra/esmdfjd/f'
-    ]))
-# 'trt/s/g/' should equal 'trt/s/'
