@@ -1,19 +1,16 @@
 //https://www.codewars.com/kata/5e4bb05b698ef0001e3344bc/
 var BN = require("bignumber.js");
 function solve(arr) {
-    var ac_bd;
-    var ad_bc;
     //(a^2 + b^2)(c^2 + d^2) = (ac-bd)^2 + (ad+bc)^2
     // for 4 elements in arr that's all
     // for more:
     // (a^2 + b^2)(c^2 + d^2)(e^2 + f^2) = ((ac-bd)^2 + (ad+bc)^2)(e^2 + f^2) ==>
     // ac-bd is new a
     // ad+bc is new b
-    //
     // take first a,b,c,d to get (ac-bd)^2 + (ad+bc)^2 as
     // a and b for next
-    ac_bd = BigInt(Math.abs(arr[0] * arr[2] - arr[1] * arr[3]));
-    ad_bc = BigInt(Math.abs(arr[0] * arr[3] + arr[1] * arr[2]));
+    var ac_bd = BigInt(Math.abs(arr[0] * arr[2] - arr[1] * arr[3]));
+    var ad_bc = BigInt(Math.abs(arr[0] * arr[3] + arr[1] * arr[2]));
     // Now we must take c and d
     for (var i = 4; i < arr.length; i += 2) {
         // we have ((ac_bd)^2 + (ad+bc)^2)(e^2 + f^2)
@@ -27,5 +24,4 @@ function solve(arr) {
     }
     return [ac_bd, ad_bc];
 }
-console.log(solve([1, 3, 1, 2, 1, 5, 1, 9]));
 //# sourceMappingURL=operationseq.js.map
