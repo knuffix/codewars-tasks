@@ -11,3 +11,4 @@ module.exports = function kaprekarSplit(n) {
     }
     return -1;
 };
+//# sourceMappingURL=kaprekar.js.map

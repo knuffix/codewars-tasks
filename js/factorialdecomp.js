@@ -49,3 +49,4 @@ function is_prime(n) {
     }
     return true;
 }
+//# sourceMappingURL=factorialdecomp.js.map

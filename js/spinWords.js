@@ -15,3 +15,4 @@ module.exports = function spinWords(string) {
     }
     return result;
 };
+//# sourceMappingURL=spinWords.js.map
