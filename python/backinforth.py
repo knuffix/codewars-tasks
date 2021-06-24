@@ -1,7 +1,7 @@
 # https://www.codewars.com/kata/60cc93db4ab0ae0026761232
 
-def arrange(s_arr:list) -> list:
-    
+def arrange(s_arr: list) -> list:
+
     if len(s_arr) <= 1:
         return s_arr
     tmp: list = []
@@ -14,5 +14,6 @@ def arrange(s_arr:list) -> list:
         else:
             tmp.append(s_arr[ind])
             tmp.append(s_arr[len(s_arr) - 1 - ind])
-    if len(s_arr) % 2 == 1: tmp.append(s_arr[len(s_arr)//2])
+    if len(s_arr) % 2 == 1:
+        tmp.append(s_arr[len(s_arr)//2])
     return tmp
