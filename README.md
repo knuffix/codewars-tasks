@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 ## Contact
 
 
-E-mail: [knuffix@knuffix.ru](knuffix@knuffix.ru)
+E-mail: knuffix@knuffix.ru
 
 
 
