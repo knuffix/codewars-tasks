@@ -56,9 +56,8 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 
-Web-Site - [knuffix.tech](https://knuffix.tech) - Will be added soon
 
-E-mail: [isitme@knuffix.tech] - isitme@knuffix.tech
+E-mail: [knuffix@knuffix.ru] - knuffix@knuffix.ru
 
 
 
